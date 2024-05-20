@@ -903,7 +903,7 @@ button:hover{
 .Hero-Section3{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/r-1.jpg");
+    background-image: url("../img/r-1.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
