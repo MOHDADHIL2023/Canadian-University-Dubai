@@ -22,7 +22,7 @@ html{
 .Hero-Section{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/cud_campus_001.jpg"); /*"img/cud_campus_001.jpg"*/
+    background-image: url("../img/cud_campus_001.jpg"); /*"img/cud_campus_001.jpg"*/
     background-position: bottom;
     background-size: cover;
     display: flex;
