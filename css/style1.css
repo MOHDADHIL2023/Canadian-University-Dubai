@@ -2,7 +2,7 @@
 .Hero-Section4{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/faculties-and-departments-1920x1080.jpg");
+    background-image: url("../img/faculties-and-departments-1920x1080.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -155,7 +155,7 @@ button:hover{
 .Hero-Section5{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/campus-life-cud.png");
+    background-image: url("../img/campus-life-cud.png");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -379,7 +379,7 @@ button:hover{
 .Hero-Section6{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/national-cancer-institute-JxoWb7wHqnA-unsplash.jpg");
+    background-image: url("../img/national-cancer-institute-JxoWb7wHqnA-unsplash.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
