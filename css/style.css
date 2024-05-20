@@ -1,0 +1,1133 @@
+/*Global Tag Section*/
+/*Home Page*/
+/*universal selector tag*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: #D6C8C8;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Navigation Bar & Hero Section*/
+.Hero-Section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/cud_campus_001.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.Hero-Ctn h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Hero-Ctn h5{
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 80px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Line{
+    width: 900px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Hero-Ctn h3{
+    font-size: 30px;
+    margin-bottom: 120px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+}
+.Ctn1 button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn1 button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Ctn1 button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+.Ctn button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+.Ctn button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links1{
+    display: flex;
+    align-items: center;
+}
+.nav-links1 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links1 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button1{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/*TOPIC TAG IS ABOUT HEAR IT FROM OUR STUDENT*/
+.Topic1{
+    width: 80%;
+    margin: 80px auto;
+}
+.Title{
+    text-align: center;
+    font-size: 4vmin;
+    opacity: 0;
+    animation: slideRight 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.Line1{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideRight 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.row-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.col-card{
+    width: 325px;
+    background-color: darkred;
+    border-radius: 60px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px(0,0,0,0.5);
+    margin: 20px;
+    transition: transform 0.6s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.col-card:hover{
+    transform: translate(-12px);
+}
+.col-card img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+.card1{
+    padding: 16px;
+}
+.card1 h4{
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+.card1 p{
+    font-size: 16.8px;
+    color: white;
+    line-height: 1.3;
+    text-shadow: 2px 2px 4px black;
+    padding: 14px;
+}
+.card1 .Btn0{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    margin: 46px;
+}
+.card1 .Btn0:hover{
+    background-color: red;
+    transition: ease-in-out 0.4s;
+    transform: scale(1.1);
+}
+
+/*Lectures Tag Sections*/
+.Lectures{
+    width: 80%;
+    margin: 80px auto;
+}
+.Title2{
+    text-align: center;
+    font-size: 4vmin;
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.Line3{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 20px;
+}
+.team-section-1{
+    margin-top: 75px;
+}
+.team-cards-1{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    opacity: 0;
+    animation: slideRight 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.Teams-Faculty{
+    background-color: darkred;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.6s ease;
+    width: calc(33.33% - 20px);
+}
+.Teams-Faculty:hover{
+    transform: translate(-12px);
+}
+.lectures-photos-1 img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+}
+.details1 .Name2{
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 24px;
+}
+.details1 .Tutor{
+    font-size: 14px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px black;
+    padding: 18.6px;
+}
+
+/*Appilcation for CUD Section And Also With Video Clip*/
+.row1{
+    width: 80%;
+    margin: 80px auto;
+}
+.col1{
+    text-align: center;
+    font-size: 4vmin;
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.Line2{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideRight 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.col1 .Ctn1{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    margin: 46px;
+    opacity: 0;
+    animation: ZoomOut 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.col1 h1{
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.col1 h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px white;
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.col1 .Ctn1:hover{
+    background-color: red;
+    transition: ease-in-out 0.4s;
+    transform: scale(1.1);
+}
+.video2{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+video{
+    width: 100%;
+    height: 100%;
+    margin: -20px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px red;
+}
+
+/*Mobile Menu Botton*/
+@media only screen and (max-width:850px){
+    .Menu-Button1{
+        display: block;
+    }
+    .Menu-Button1:hover{
+        transition: ease-in-out 0.4s;
+        transform: scale(1.1);
+    }
+    .Line{
+        visibility: hidden;
+    }
+    .Hero-Ctn h5{
+        visibility: hidden;
+    }
+    .Ctn button{
+        visibility: hidden;
+    }
+    .Hero-Ctn h1{
+        visibility: hidden;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .Logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links1{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: darkgray;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+        border-bottom-right-radius: 30%;
+    }
+    .mobile-menu1{
+        margin-top: 0px;
+    }
+    .nav-links1 li{
+        margin: 30px auto;
+    }
+}
+
+/*ACCREDITATIONS AND AFFILIATIONS section tag*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Company_Logo{
+    width: 80%;
+    margin: 80px auto;
+}
+.Title3{
+    text-align: center;
+    font-size: 4vmin;
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.Line4{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.logocontainer{
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.logocud{
+    display: inline-block;
+    animation: 10s slide infinite linear;
+}
+.logocontainer:before,.logocontainer:after{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+.logocontainer:before{
+    background: linear-gradient(to left, rgba(255,255,255,0), #D6C8C8);
+    left: 0;
+}
+.logocontainer:after{
+    background: linear-gradient(to right, rgba(255,255,255,0), #D6C8C8);
+    right: 0;
+}
+.logocontainer:hover .logocud{
+    animation-play-state: paused;
+}
+.logocud img{
+    height: 168px;
+    margin: 0 40px;
+}
+.logocontainer{
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* To show the horizontal silders*/
+@keyframes slide{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/*News Section Tag*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row4{
+    width: 80%;
+    margin: 80px auto;
+}
+.col4{
+    text-align: center;
+    font-size: 4vmin;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Line5{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.News-col{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    opacity: 0;
+    animation: slideRight 1.4s ease forwards;
+    animation-delay: 1.2s;
+}
+.News-photos{
+    width: 325px;
+    background-color: darkred;
+    border-radius: 60px;
+    overflow: hidden;
+    margin: 20px;
+    transition: transform 0.6s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.News-photos:hover{
+    transform: translate(-12px);
+}
+.News-photos img{
+    width: 100%;
+    height: auto;
+}
+.news-content{
+    padding: 8px;
+}
+.news-content h2{
+    text-align: center;
+    margin-bottom: 8px;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 20px;
+}
+.news-content p{
+    text-align: center;
+    margin-bottom: 8px;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 14.6px;
+}
+.news-content .Btn2{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    margin: 20px;
+}
+.news-content .Btn2:hover{
+    background-color: red;
+    transition: ease-in-out 0.4s;
+    transform: scale(1.1);
+}
+
+/*Footer Tag Section*/
+footer{
+    background-color: #160303;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 50%;
+}
+.Footer-Content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.Social-Media{
+    display: flex;
+    gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    opacity: 0;
+    animation: slideTop 1.4s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.Links{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+}
+.footer-logo img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Footer-Copyright{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+}
+.Contact-Info{
+    opacity: 0;
+    animation: slideTop 1.4s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.Contact-Info h5{
+    color: white;
+}
+.Contact-Info h5:hover{
+    color: red;
+    transition: ease-in-out 0.4s;
+    transform: scale(1.2);
+}
+.Social-Media a:hover{
+    color: red;
+    transition: ease-in-out 0.4s;
+    transform: scale(1.2);
+}
+
+/*2 pages for About CUD*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Hero-Section2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/maxresdefault\ \(1\).jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn2 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 4s ease forwards;
+}
+.Linepart2{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 4s ease forwards;
+}
+.navbar2{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo2{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links2{
+    display: flex;
+    align-items: center;
+}
+.nav-links2 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links2 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button2{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+.Ctn2 button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn2 button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+/*Page 2 About The CUD Section*/
+.About_Section{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.HEADING{
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.HEADING{
+    display: block;
+    font-size: 36.2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px red;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter
+}
+.HEADING1{
+    display: block;
+    font-size: 36.2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 4px red;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter
+}
+.ADMISSION-1{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.ADMISSION-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+}
+.PARAGRAPH{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.4s;
+}
+.PARAGRAPH{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 22.6px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.NOL{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.LIST1{
+    display: inline-block;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1.4s;
+}
+.LIST1{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Linepart2-1{
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Linepart2-1{
+    width: 500px;
+    height: 6px;
+    background: red;
+    border-radius: 5px;
+    size: 10px;
+}
+
+/*3 pages for About Admissions*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Hero-Section3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/r-1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn3 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 4s ease forwards;
+}
+.Linepart3{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 4s ease forwards;
+}
+.navbar3{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo3{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links3{
+    display: flex;
+    align-items: center;
+}
+.nav-links3 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links3 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button3{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+.Ctn3 button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn3 button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+/*page 3 About The Admission Section*/
+.Admission-Content{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.ADMISSION-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+}
+h3{
+    font-weight: lighter;
+    font-size: 22px;
+    color: #160303;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.NOL{
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.undergraduate{
+    color: darkred;
+}
+.undergraduate:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+/*Scrolling Button*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#SCROLLTOPBTN{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#SCROLLTOPBTN:hover{
+    background-color: red;
+    color: black;
+}
+
+/*keyframe Animation*/
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideSci{
+    0%{
+        transform: translateX(100px) rotate(45deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0) rotate(45deg);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes ZoomOut{
+    0%{
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
