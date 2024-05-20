@@ -2,7 +2,7 @@
 .Hero-Section7{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/windows-11-dark-mode-abstract-background-black-background-3440x1440-8710.jpg");
+    background-image: url("../img/windows-11-dark-mode-abstract-background-black-background-3440x1440-8710.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -320,7 +320,7 @@ ul{
 .Hero-Section8{
     width: 100vw;
     height: 100vh;
-    background-image: url("/img/windows-11-dark-mode-abstract-background-black-background-3440x1440-8710.jpg");
+    background-image: url("../img/windows-11-dark-mode-abstract-background-black-background-3440x1440-8710.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
