@@ -1,0 +1,538 @@
+/*Pages 4 for Academic School & Department*/
+.Hero-Section4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/faculties-and-departments-1920x1080.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn4 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Linepart4{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.navbar4{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo4{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links4{
+    display: flex;
+    align-items: center;
+}
+.nav-links4 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links4 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button4{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+.Ctn4 button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn4 button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+/*Page 4 for Courses flexbox container*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.flexbox1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.D-Container{
+    width: 325px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: darkred;
+    color: white;
+    transition: transform 0.6s ease;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    opacity: 0;
+    animation: ZoomOut 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.D-Container img{
+    width: 100%;
+    height: auto;
+}
+.D-Card h1{
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.D-Card p:hover{
+    color: red;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.1);
+}
+.D-Card p{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.D-Card{
+    padding: 16px;
+}
+.D-Container:hover{
+    transform: translate(-12px);
+}
+
+/*Pages 5 for the students campus life section*/
+.Hero-Section5{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/campus-life-cud.png");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn5 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Linepart5{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.navbar5{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo5{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links5{
+    display: flex;
+    align-items: center;
+}
+.nav-links5 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links5 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button5{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+.Ctn5 button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn5 button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+/*Pages 5 for the students graduation ceremony gallery*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.BODY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.Campus-Container{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Campus-Container{
+    display: flex;
+    width: 90vw;
+}
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+.HEADING2{
+    text-shadow: 2px 2px red;
+    color: gold;
+}
+.panel h1{
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+.panel.active{
+    flex: 5;
+}
+.panel.active h1{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+/*Expanded flex Image Gallery*/
+@media (max-width: 480px){
+    .Campus-Container{
+        width: 100vw;
+        transition: opacity 0.3s ease-in 0.4s;
+    }
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5){
+        display: none;
+    }
+}
+
+/*Pages 5 is for All Image Gallery Photos for CUD*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-container{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery-container{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.gallery-container img{
+    width: 100%;
+    cursor: pointer;
+}
+.gallery-container img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68,77,136,0.2);
+}
+.full-images{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-images img{
+    width: 90%;
+    max-width: 500px;
+}
+.full-images span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.full-images span:hover{
+    color: red;
+    transform: scaleX(1.2);
+}
+
+/*pages 6 is for Research about the goal for CUD*/
+.Hero-Section6{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/national-cancer-institute-JxoWb7wHqnA-unsplash.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn6 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Linepart6{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.navbar6{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo6{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links6{
+    display: flex;
+    align-items: center;
+}
+.nav-links6 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links6 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button6{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+.Ctn6 button{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Ctn6 button{
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+}
+button:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+/*keyframe Animation*/
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideSci{
+    0%{
+        transform: translateX(100px) rotate(45deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0) rotate(45deg);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes ZoomOut{
+    0%{
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
