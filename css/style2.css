@@ -1,0 +1,514 @@
+/*Pages 7 for Contact Form*/
+.Hero-Section7{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/windows-11-dark-mode-abstract-background-black-background-3440x1440-8710.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn7 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Linepart7{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.navbar7{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo7{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links7{
+    display: flex;
+    align-items: center;
+}
+.nav-links7 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links7 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button7{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Contact Form*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Form-Container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    min-height: 100vh;
+}
+.Wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.Wrapper h2{
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-shadow: 2px 2px red;
+    padding: 2rem 1rem;
+    position: relative;
+}
+.Wrapper h2::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 100px;
+    left: 20px;
+    width: 18%;
+    background: red;
+}
+.content p{
+    color: black;
+    font-weight: bold;
+}
+.content p:hover{
+    color: red;
+    transition: ease-in-out 0.4s;
+    transform: scale(1.1);
+}
+.Form-Section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+.Form-Section ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.Form-Details .ICONS{
+    background: red;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.Form-Details li{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    margin: 0.8rem 0;
+}
+.Form-Details li i{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+.Form-Details strong{
+   color: darkred; 
+}
+.Form-Group{
+    position: relative;
+}
+.Form-Group .Form-Control{
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.Form-Container{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Form-Group span{
+    position: absolute;
+    top: 0.8rem;
+    left: 0;
+    padding: 1rem;
+    pointer-events: none;
+    font-size: 0.8rem;
+    color: lightgrey;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.Form-Group .Form-Control:valid ~ span,
+.Form-Group .Form-Control:focus ~ span{
+    background: red;
+    color: white;
+    transform: translateX(10px) translateY(-10px);
+    font-size: 0.8rem;
+    padding: 0 10px;
+}
+.Input-Field button{
+    outline: none;
+    border: none;
+    background: red;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Input-Field button:hover{
+    background: darkred;
+}
+.Input-Field button:active{
+    transform: scale(1.1)
+}
+
+/*To Anlarge or make a small window*/
+@media (max-width:786px){
+    .Form-Section{
+        grid-template-columns: 1fr;
+    }
+    .Wrapper h2{
+        font-size: 2rem;
+    }
+    .Wrapper h2::after{
+        content: "";
+        position: absolute;
+        height: 5px;
+        top: 90px;
+    }
+    .Form-Details li{
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+    }
+}
+
+/*To Anlarge or make a small window*/
+@media (max-width:786px){
+    .Form-Section1{
+        grid-template-columns: 1fr;
+    }
+    .Wrapper1 h2{
+        font-size: 2rem;
+    }
+    .Wrapper1 h2::after{
+        content: "";
+        position: absolute;
+        height: 5px;
+        top: 90px;
+    }
+    .Form-Details1 li{
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+    }
+}
+
+/*keyframe Animation*/
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideSci{
+    0%{
+        transform: translateX(100px) rotate(45deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0) rotate(45deg);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes ZoomOut{
+    0%{
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*Pages 8 for Application Form*/
+.Hero-Section8{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/windows-11-dark-mode-abstract-background-black-background-3440x1440-8710.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.Hero-Ctn8 h1{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    margin-bottom: 86px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.Linepart8{
+    width: 500px;
+    height: 6px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    size: 10px;
+    margin-bottom: 186px;
+    opacity: 0;
+    animation: slideRight 2.4s ease forwards;
+}
+.navbar8{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.Logo8{
+    border-radius: 10px;
+    float: left;
+    height: 160px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+.nav-links8{
+    display: flex;
+    align-items: center;
+}
+.nav-links8 li a{
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 18.6px;
+    font-weight: bold;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
+}
+.nav-links8 li a:hover{
+    color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.4);
+}
+.Menu-Button8{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Application Form*/
+.Form-Details1 li{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    margin: 0.8rem 0;
+}
+.Wrapper1{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.Wrapper1 h2{
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-shadow: 2px 2px red;
+    padding: 2rem 1rem;
+    position: relative;
+}
+.Wrapper1 h2::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: 100px;
+    left: 20px;
+    width: 18%;
+    background: red;
+}
+.Form-Section1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+.Form-Section1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.content1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.6px;
+    font-weight: bold;
+    padding: 20px;
+    margin: -20px;
+    color: black;
+}
+#program1{
+    min-width: 980px; 
+}
+.Form-Container1{
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+.Form-Details1 li{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    margin: 0.8rem 0;
+}
+.Form-Group1{
+    position: relative;
+}
+.Form-Group1 .Form-Control1{
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.Form-Group1 span{
+    position: absolute;
+    top: 0.8rem;
+    left: 0;
+    padding: 1rem;
+    pointer-events: none;
+    font-size: 0.8rem;
+    color: lightgrey;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.Form-Group1 .Form-Control1:valid ~ span,
+.Form-Group1 .Form-Control1:focus ~ span{
+    background: red;
+    color: white;
+    transform: translateX(10px) translateY(-10px);
+    font-size: 0.8rem;
+    padding: 0 10px;
+}
+.Input-Field1 button{
+    outline: none;
+    border: none;
+    background: red;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Input-Field1 button:hover{
+    background: darkred;
+}
+.Input-Field1 button:active{
+    transform: scale(1.1)
+}
