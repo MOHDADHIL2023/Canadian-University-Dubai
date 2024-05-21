@@ -30,6 +30,6 @@ function scrollFunction(){
     }
 }
 function scrollToTop(){
-    document.body.scrollTop = 0;
+    document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; /*from google chrome & microsoft edge*/
 }
