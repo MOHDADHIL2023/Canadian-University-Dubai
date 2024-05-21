@@ -75,7 +75,7 @@ html{
     transform: scale(1.4);
 }
 .Ctn1 button{
-    border-radius: 10px;
+    border-radius: 24px;
     padding: 8px 15px;
     margin-bottom: 90px;
     background: black;
@@ -90,7 +90,7 @@ html{
     animation-delay: 1.2s;
 }
 .Ctn button{
-    border-radius: 10px;
+    border-radius: 24px;
     padding: 8px 15px;
     margin-bottom: 90px;
     background: black;
@@ -228,7 +228,7 @@ ul{
 .card1 .Btn0{
     display: inline-block;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 24px;
     margin-top: 16px;
     text-decoration: none;
     color: white;
@@ -339,7 +339,7 @@ ul{
 .col1 .Ctn1{
     display: inline-block;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 24px;
     margin-top: 16px;
     text-decoration: none;
     color: white;
@@ -588,7 +588,7 @@ video{
 .news-content .Btn2{
     display: inline-block;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 24px;
     margin-top: 16px;
     text-decoration: none;
     color: white;
@@ -767,7 +767,7 @@ ul{
     animation-delay: 1.2s;
 }
 .Ctn2 button{
-    border-radius: 10px;
+    border-radius: 24px;
     padding: 8px 15px;
     margin-bottom: 90px;
     background: black;
@@ -986,7 +986,7 @@ ul{
     animation-delay: 1.2s;
 }
 .Ctn3 button{
-    border-radius: 10px;
+    border-radius: 24px;
     padding: 8px 15px;
     margin-bottom: 90px;
     background: black;
