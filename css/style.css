@@ -195,7 +195,6 @@ ul{
     box-shadow: 0px 2px 4px(0,0,0,0.5);
     margin: 20px;
     transition: transform 0.6s ease;
-    width: calc(33.33% - 20px);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .col-card:hover{
