@@ -183,6 +183,11 @@ ul{
     margin-top: 100px;
 }
 .col-card{
+    opacity: 0;
+    animation: slideLeft 1.4s ease forwards;
+    animation-delay: 1s;
+}
+.col-card{
     width: 325px;
     background-color: darkred;
     border-radius: 60px;
@@ -191,9 +196,6 @@ ul{
     margin: 20px;
     transition: transform 0.6s ease;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    animation: slideLeft 1.4s ease forwards;
-    animation-delay: 1s;
 }
 .col-card:hover{
     transform: translate(-12px);
