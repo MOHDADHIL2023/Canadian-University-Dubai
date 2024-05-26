@@ -19,10 +19,10 @@ document.querySelector('.logocontainer').appendChild(copy);
 let myScbtn = document.getElementById("SCROLLTOPBTN");
 
 /* When the user scrolls down 20px from the top of the document show the button*/
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {ScrollFunction()};
 
 /* When the user clicks on the button scroll to the top of the document*/
-function scrollFunction(){
+function ScrollFunction(){
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
         myScbtn.style.display = "block";
     } else{
@@ -32,4 +32,72 @@ function scrollFunction(){
 function scrollToTop(){
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; /*from google chrome & microsoft edge*/
+}
+
+/*this js is for read more & less button*/
+function myFunction(){
+    var dots = document.getElementById("dots");
+    var moretext = document.getElementById("more");
+    var btntext = document.getElementById("myBTN");
+
+    if (dots.style.display === "none"){
+        dots.style.display = "inline";
+        btntext.innerHTML = "READ MORE";
+        moretext.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btntext.innerHTML = "READ LESS";
+        moretext.style.display = "inline";
+    }
+}
+
+/*this js is for read more & less button*/
+function myFunction1(){
+    var dots = document.getElementById("dots1");
+    var moretext = document.getElementById("more1");
+    var btntext = document.getElementById("myBTN1");
+
+    if (dots.style.display === "none"){
+        dots.style.display = "inline";
+        btntext.innerHTML = "READ MORE";
+        moretext.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btntext.innerHTML = "READ LESS";
+        moretext.style.display = "inline";
+    }
+}
+
+/*this js is for read more & less button*/
+function myFunction2(){
+    var dots = document.getElementById("dots2");
+    var moretext = document.getElementById("more2");
+    var btntext = document.getElementById("myBTN2");
+
+    if (dots.style.display === "none"){
+        dots.style.display = "inline";
+        btntext.innerHTML = "READ MORE";
+        moretext.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btntext.innerHTML = "READ LESS";
+        moretext.style.display = "inline";
+    }
+}
+
+/*this js is for read more & less button*/
+function myFunction3(){
+    var dots = document.getElementById("dots3");
+    var moretext = document.getElementById("more3");
+    var btntext = document.getElementById("myBTN3");
+
+    if (dots.style.display === "none"){
+        dots.style.display = "inline";
+        btntext.innerHTML = "READ MORE";
+        moretext.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btntext.innerHTML = "READ LESS";
+        moretext.style.display = "inline";
+    }
 }
