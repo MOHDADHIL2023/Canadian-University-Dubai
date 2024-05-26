@@ -98,6 +98,95 @@ button:hover{
     transform: scale(1.2);
 }
 
+/*Page 4 for Read More & Less Button*/
+#more{
+    display: none;
+}
+#myBTN{
+    border-radius: 24px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+#myBTN:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+#more1{
+    display: none;
+}
+#myBTN1{
+    border-radius: 24px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+#myBTN1:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+#more2{
+    display: none;
+}
+#myBTN2{
+    border-radius: 24px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+#myBTN2:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
+#more3{
+    display: none;
+}
+#myBTN3{
+    border-radius: 24px;
+    padding: 8px 15px;
+    margin-bottom: 90px;
+    background: black;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    color: white;
+    opacity: 0;
+    animation: ZoomOut 1s ease forwards;
+    animation-delay: 1.2s;
+}
+#myBTN3:hover{
+    background-color: red;
+    transition: ease-in-out 0.5s;
+    transform: scale(1.2);
+}
+
 /*Page 4 for Courses flexbox container*/
 *{
     margin: 0px;
