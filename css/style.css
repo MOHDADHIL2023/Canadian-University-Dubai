@@ -612,7 +612,7 @@ footer{
     padding: 10px;
     text-align: center;
     height: 50%;
-    /* width: 100%; */
+    width: 100%;
 }
 .Footer-Content{
     display: flex;
